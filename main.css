@@ -9,59 +9,68 @@
 }
 
 .logo-border {
-    display: flex;
-    padding: 0 16px 0 40px;
+   display: flex;
+   width: 100%;
+   padding: 0 16px 0 40px;
 } 
 
 .logo {
    display: flex;
    float: left;
+   width: 30%;
    align-items: center;
-   margin-right: 350px;
    height: 80px;
 }
 .size-logo {
-   max-width: 70%;
-   max-height: 100%;
+    display: flex;
+    margin-right: 45%;
+    max-width: 100%;
+    height: 58%;
+}
+
+.list-item {
+    display: flex;
+    width: 70%;
 }
 
 .list-1{
   display: flex;
-  width: 15%;
+  width: 24%;
   align-items: center;
 }
 
-.item-1 {
-   display: flex;
-   width: 100%;
-   justify-content: center;
-   align-items: center;
-   padding: 3px 15px 3px 15px;
-   border-right: 1px solid #fff;
+.item-1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 15px 3px 15px;
+    border-right: 1px solid #fff;
 }
 
 .search-icon {
   display: flex;
   color: #fff;
-  font-size: 20px;
+  font-size: 100%;
   align-items: center;
 }
 
 .language {
-  display: flex;
-  padding-left: 10px;
-  flex-direction: column;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
 }
 
 .heading {
-    font-size: 12px;
+    font-size: 64%;
     color: #909195;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .top-item {
-    font-size: 15px;
+    font-size: 80%;
     color: #fff;
     font-weight: 400;
 }
@@ -76,18 +85,20 @@
 
 .list-2 {
   display: flex;
-  width: 18%;
+  width: 30%;
   align-items: center;
 }
 
 .item-2 {
     display: flex;
     width: 100%;
+    height: 50%;
     align-items: center;
     justify-content: center;
     padding: 3px 15px 3px 15px;
     border-right: 1px solid #fff;
 }
+
 .ti-headphone {
   display: flex;
   color: #fff;
@@ -101,7 +112,7 @@
 
 .list-3 {
    display: flex;
-   width: 13%;
+   width: 25%;
    align-items: center;
    justify-content: center;
 }
@@ -109,6 +120,8 @@
 .item-3 {
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
     height: 38px;
     padding: 3px 15px 3px 15px;
     border-right: 1px solid #fff;
@@ -129,6 +142,7 @@
 
 .list-4 {
   display: flex;
+  width: 21%;
   align-items: center;
   justify-content: center;
 }
@@ -149,20 +163,17 @@
 }
 
 .login {
-   display: flex;
+  display: flex;
   padding-left: 14px;
   align-items: center;
 }
 
 .form {
-   display: inline-block;
-   background-color: #464749;
-   left: 0;
-   padding: 0 0 0 0;
-   margin: 0 0 0 0;
-   width: 100%;
-   height: 40px;
-   border-bottom: 3px solid #000;
+    width: 100%;
+    height: 40px;
+    background-color: #46404026;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .form li {
@@ -171,92 +182,87 @@
 }
 
 .box-1 {
-    width: 18px;
+    width: 14%;
     color: #fff;
-    padding: 0 60px 0 60px;
-    height: 40px;
-    border-bottom: 3px solid orange;
+    height: 100%;
+    border-bottom: 3px solid #EA7F23;
 }
 
 .ti-home {
      display: flex;
      align-items: center;
-     height: 40px;
+     justify-content: center;
+     height: 100%;
      font-size: 20px;
 }
 
 .box-2 {
-    width: 260px;
+    width: 16%;  
     color: #fff;
-    height: 40px;
+    height: 100%;
 }
 
 .fax {
-   display: flex;
-   padding: 16px 16px 16px 16px;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .box-3 {
-   width: 260px;
+   width: 24%;
    color: #fff;
    height: 40px;
 }
 
 .yield {
-   display: flex;
-   padding: 16px 16px 16px 16px;
-   align-items: center;
-   justify-content: center;
-   color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .box-4 {
-    width: 280px;
+    width: 20%;
     height: 40px;
     color: #fff;
 }
 
 .box-service {
-   display: flex;
-   padding: 16px 16px 16px 16px;
-   align-items: center;
-   justify-content: center;
-   color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .box-5 {
-   width: 240px;
+   width: 16%;
    height: 40px;
    color: #fff;
 }
 
 .box-news {
-   display: flex;
-   padding: 16px 16px 16px 16px;
-   align-items: center;
-   justify-content: center;
-   color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .box-6 {
-   width: 169px;
+   width: 10%;
    height: 40px;
    color: #fff;
 }
 
 .ti-list {
-   display: flex;
-   padding: 16px 16px 16px 16px;
-   font-size: 20px;
-   align-items: center;
-   justify-content: center;
-   color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 li:hover {
-   border-bottom: 3px solid orange;
+   border-bottom: 3px solid #EA7F23;
 }
 
 #information {
@@ -267,7 +273,7 @@ li:hover {
     float: left;
     max-width: 100%;
     max-height: 100%;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #EA7F23;
 }
 
 .information-display {
