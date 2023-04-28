@@ -1,3 +1,7 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
 #header{
     height: 120px;
     position: fixed;
@@ -17,7 +21,7 @@
 .logo {
    display: flex;
    float: left;
-   width: 30%;
+   width: 26%;
    align-items: center;
    height: 80px;
 }
@@ -271,7 +275,7 @@ li:hover {
 
 .picture {
     float: left;
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     border-bottom: 5px solid #EA7F23;
 }
@@ -298,7 +302,7 @@ li:hover {
 
 .information-section {
     margin-right: 10px;
-    width: 18%;
+    width: 160px;
     height: 100%;
 }
 
@@ -341,10 +345,15 @@ li:hover {
 
 .section-text-1 {
    height: 20%;
+   font-weight: 700;
 }
 
 .section-text-2 {
-    margin-top: 13px;
+    margin-top: 16%;
+    font-size: 90%;
+    width: 60%;
+    font-weight: 400;
+    text-align: center;
     border: 1px solid #8f8b8b;
     border-radius: 5px;
     padding: 2px 20px 4px;
@@ -359,7 +368,7 @@ li:hover {
 }
 
 .information-text {
-    display: block;
+    display: flex;
     width: 100%;
     height: 500px;
     padding-top: 40px;
@@ -368,6 +377,49 @@ li:hover {
 
 .information-text-display {
     display: flex;
+    width: 100%;
+    padding: 4% 8%;
+}
+
+.text {
+   width: 33.333333%;
+   padding: 0 12px;
+}
+
+.mb-text {
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 530;
+    line-height: 1.2;
+}
+
+.highlight {
+    display: block;
+    width: 64%;
+    padding: 0 24px 5px 0;
+    margin: 0 0 5px 0;
+    border-bottom: 4px solid #EA7F23;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mt-text {
+   margin-top: 10px;
+}
+
+.button-text {
+    margin-top: 15px;
+    border: 0;
+    font-size: 20px;
+    width: 40%;
+    background-color: #EA7F23;
+    border-radius: 10px;
+}
+
+.button-p {
+    margin: 0 0 0 0;
+    text-align: center;
+    color: #fff;
 }
 
 #system {
