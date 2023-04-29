@@ -388,8 +388,9 @@ li:hover {
 
 .mb-text {
     margin-bottom: 2px;
+    text-align: justify;
     font-size: 16px;
-    font-weight: 530;
+    font-weight: 540;
     line-height: 1.2;
 }
 
@@ -412,14 +413,68 @@ li:hover {
     border: 0;
     font-size: 20px;
     width: 40%;
-    background-color: #EA7F23;
-    border-radius: 10px;
+    height: 20%;
 }
 
 .button-p {
     margin: 0 0 0 0;
     text-align: center;
+    border-radius: 10px;
+    background-color: #EA7F23;
     color: #fff;
+    height: 30px;
+    width: 90%;
+}
+
+.button-p:hover{
+    background-color: #fff;
+    color: #EA7F23;
+    border: 1px solid #EA7F23;
+}
+
+.hit {
+    display: block;
+    color: #6e6f72;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-bottom: 4px solid #EA7F23;
+}
+
+.hit-1{
+    width: 36%; 
+}
+
+.text-flex {
+    display: flex;
+}
+
+.ti-eye {
+    font-size: 44px;
+    color: #EA7F23;
+}
+
+.post {
+    padding: 15px;
+}
+
+.world-information{
+    font-size: 44px;
+    color: #EA7F23;
+}
+
+.hit-2 {
+    width: 72%;
+}
+
+.ti-thumb-up {
+    color: #EA7F23;
+    font-size: 44px;
+}
+
+.hit-3 {
+    width: 60%;
 }
 
 #system {
