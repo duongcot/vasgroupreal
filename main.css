@@ -178,6 +178,7 @@
     width: 100%;
     height: 40px;
     background-color: #3d3c3c;
+    border-bottom:4px solid #000;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -275,7 +276,7 @@ li:hover {
 
     display: block;
     width: 100%;
-    height: 2000px;
+    height: 3000px;
 }
 
 #information {
@@ -590,6 +591,54 @@ p {
 .system-section-p {
     padding-left: 20px;
     width: 40%;
+}
+
+.page-statistic 
+{
+    width: 100%;
+    background-color: #EA7F23;
+    height: 202px;
+}
+
+.row-statistic {
+    display: block;
+    width: 88%;
+    height: 56%;
+    padding: 45px 80px 45px 80px;
+}
+
+.container-statistic {
+    display: flex;
+    width: 100%;
+    height: 85%
+}
+
+.section-statistic {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+img.icon-statistic {
+    height: 75%;
+    width: 25%;
+}
+
+.content-statistic {
+    padding-left: 20px;
+}
+
+p.text-statistic {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 540;
+}
+
+span.counter {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
 }
 
 #project {
