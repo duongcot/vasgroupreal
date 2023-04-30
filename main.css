@@ -3,8 +3,10 @@
 }
 
 #header{
+    display: block;
     height: 120px;
     position: fixed;
+    width: 100%;
     left: 0;
     right: 0;
     top: 0;
@@ -269,8 +271,18 @@ li:hover {
    border-bottom: 3px solid #EA7F23;
 }
 
+.vasgroup {
+
+    display: block;
+    width: 100%;
+    height: 2000px;
+}
+
 #information {
+   display: block;
    margin-top: 114px;
+   width: 100%;
+   height: 1100px;
 }
 
 .picture {
@@ -378,6 +390,7 @@ li:hover {
 .information-text-display {
     display: flex;
     width: 100%;
+    height: 100%;
     padding: 4% 8%;
 }
 
@@ -478,7 +491,105 @@ li:hover {
 }
 
 #system {
+     display: block;
+     width: 100%;
+     height: 820px;
+}
 
+.system-page {
+     display: flex;
+     background-image: url(accept/img/system_img.jpeg);
+     background-size: cover;
+     padding: 45px 80px 45px 80px;
+     width: 88%;
+     height: 100%;
+}
+
+.system-section-1 {
+    display: flex;
+    width: 32%;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column-reverse;
+}
+
+.system-section-2 {
+     display: block;
+     width: 36%;
+     height: 90%;
+}
+
+.system-map {
+     width: 100%;
+     height: 100%;
+}
+
+.system-section-3 {
+    display: block;
+    width: 32%;
+    height: 100%;
+}
+
+
+.system-text-h1 {
+     color: #EA7F23;  
+}
+
+.font-10 {
+     font-size: 10px;
+     font-weight: 400;
+     color: #4d4747;
+}
+
+.font-12 {
+     font-size: 12px;
+     font-weight: 800;
+}  
+
+.system-section-1-heading {
+     width: 60%;
+     padding-right: 30px;
+     border-right: 1px solid #4d4747;
+}
+
+p {
+   margin: 5px 0 5px 0;
+}
+
+.system-text-p {
+    width: 40%;
+    padding-left: 25px;
+}
+
+.table-text-1 {
+     margin-bottom: 112px;
+     padding-top: 30%;
+}
+
+.table-text-2 {
+     margin-top: 112px;
+}
+
+.system-heading {
+    padding-top: 64px;
+    height: 32%;
+    font-size: 24px;
+    border-bottom: 3px;
+}
+
+.system-heading-highlight {
+    color: #000;
+    font-weight: 800;
+}
+
+.system-text {
+    border-bottom: 3px solid;
+    font-weight: 600;
+}
+
+.system-section-p {
+    padding-left: 20px;
+    width: 40%;
 }
 
 #project {
