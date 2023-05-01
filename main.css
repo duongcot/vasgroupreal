@@ -6,7 +6,6 @@
     display: block;
     height: 120px;
     position: fixed;
-    width: 100%;
     left: 0;
     right: 0;
     top: 0;
@@ -175,7 +174,6 @@
 }
 
 .form {
-    width: 100%;
     height: 40px;
     background-color: #3d3c3c;
     border-bottom:5px solid #000;
@@ -283,7 +281,6 @@ li:hover {
    display: block;
    margin-top: 114px;
    width: 100%;
-   height: 1100px;
 }
 
 .picture {
@@ -295,9 +292,9 @@ li:hover {
 
 .information-display {
     display: block;
-    height: 159px;
     width: 100%;
     float: left;
+    margin-bottom: 50px;
     background-color: #f2f2f7;
 }
 
@@ -309,7 +306,6 @@ li:hover {
     right: 0;
     align-items: center;
     justify-content: center;
-    height: 200px;
     width: 100%;
 }
 
@@ -384,8 +380,9 @@ li:hover {
     display: flex;
     width: 100%;
     height: 500px;
+    margin-top: 50px;
     padding-top: 40px;
-    margin-bottom: 10px;
+    background-color: #fff;
 }
 
 .information-text-display {
@@ -494,7 +491,6 @@ li:hover {
 #system {
      display: block;
      width: 100%;
-     height: 820px;
 }
 
 .system-page {
@@ -502,7 +498,6 @@ li:hover {
      background-image: url(accept/img/system_img.jpeg);
      background-size: cover;
      padding: 45px 80px 45px 80px;
-     width: 88%;
      height: 100%;
 }
 
@@ -575,6 +570,7 @@ p {
     padding-top: 64px;
     height: 32%;
     font-size: 24px;
+    margin-bottom: 154px;
     border-bottom: 3px;
 }
 
@@ -595,7 +591,6 @@ p {
 
 .page-statistic 
 {
-    width: 100%;
     background-color: #EA7F23;
     height: 202px;
 }
@@ -642,7 +637,116 @@ span.counter {
 }
 
 #project {
+    height: 730px;
+    padding: 45px 0 45px 0;
+    margin: 0 70px 0 70px;
+}
 
+.highlight-project {
+    margin-left: 396px;
+    margin-right: 440px;
+    margin-bottom: 24px;
+}
+
+.text-project {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-bottom: 4px solid #EA7F23;
+}
+
+.highlight-project-p1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.highlight-project-p2 {
+    padding-left: 12px;
+    font-size: 29px;
+    color: #EA7F23;
+}
+
+.tab-project {
+}
+
+.heading-tab-project {
+    height: 50px;
+}
+
+ul.nav-form {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    margin: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    border-bottom: 5px solid #fff;
+}
+
+li.nav-item {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-tab-project {
+    display: flex;
+}
+
+.pt-20 {
+   padding-top: 15.4px;
+}
+
+.img-project {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+img.img-project-1 {
+    width: 100%;
+    height: 600px;
+}
+
+img.picture-project-1 {
+    width: 100%;
+    height: 270px;
+}
+
+.picture-project {
+    margin-right: -20px;
+}
+
+.body-img-project {
+    background-color: #EA7F23;
+    margin-top: -9px;
+    height: 50px;
+}
+
+.column-project {
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+p.name-project {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+p.place-project {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
 }
 
 #prize {
