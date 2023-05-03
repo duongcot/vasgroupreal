@@ -834,6 +834,200 @@ img.prize-cup-1 {
 
 }
 
-#contact {
+.vasgroup-news {
+    padding: 50px 80px 80px 80px;
+}
 
+.header-news {
+    font-size: 20px;
+    width: 86px;
+    font-weight: 700;
+    color: #EA7F23;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #EA7F23;
+}
+
+.container-news {
+    display: flex;
+}
+
+.blog {
+    padding-right: 20px;
+    width: 50%;
+}
+
+img.img-1-news {
+    width: 100%;
+}
+
+img.img-2-news {
+    width: 100%;
+}
+
+.section-news {
+    display: flex;
+    margin-top: -4px;
+}
+
+.form-text-news {
+    height: 100px;
+    padding: 15px;
+}
+
+p.heading-text-news {
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+p.body-text-news {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.date-news {
+    display: block;
+    background-color: #EA7F23;
+    height: 50%;
+    color: #fff;
+    font-weight: 600;
+}
+
+p.day-date {
+    font-size: 26px;
+    text-align: center;
+}
+
+p.month-date {
+    text-align: center;
+}
+
+.text-news {
+    background-color: #fff;
+    box-shadow: #999 0 5px 15px
+}
+
+.form-text-news {
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+
+#contact {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    padding: 80px 50px 80px 50px;
+}
+
+.section-1-footer {
+    margin-bottom: 50px;
+}
+
+.row-section-1-footer {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.box-footer
+{
+   width: 33.333333%;
+}
+
+.box-footer {
+    padding-right: 80px;
+}
+
+.heading-box-footer {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.place-box-footer {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+i.ti-location-pin {
+    font-size: 24px;
+    color: #EA7F23;
+}
+
+p.text-place-box {
+    margin: 5px;
+    font-size: 13px;
+    color: #6e6f72;
+}
+
+.inbox-box-footer {
+    display: flex;
+    font-size: 9px;
+    color: #646464;
+}
+
+.phone-box-footer {
+    display: flex;
+    align-items: center;
+}
+
+i.ti-headphone-alt {
+    color: #7d7b7b;
+    font-size: 20px;
+}
+
+p.phone-number {
+    padding-left: 10px;
+}
+
+.email-box-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+i.ti-basketball {
+    color: #7d7b7b;
+    font-size: 20px;
+}
+
+p.email-place {
+    padding-left: 10px;
+}
+
+.app-footer {
+    width: 33.333333%;
+}
+
+.box-app-footer {
+    padding: 15px 90px;
+    display: flex;
+}
+
+.app {
+    width: 25%;
+    font-size: 40px;
+}
+
+a.link-app {
+    text-decoration: none;
+    color: #000;
+}
+
+.created {
+    width: 33.333333%;
+}
+
+p.heading-created {
+    padding-left: 65%;
+    font-size: 14px;
+}
+
+p.name-created {
+    padding-left: 85%;
+    font-weight: 900;
+    color: #EA7F23;
 }
