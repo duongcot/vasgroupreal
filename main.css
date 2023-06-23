@@ -272,6 +272,10 @@ li:hover {
    border-bottom: 3px solid #EA7F23;
 }
 
+.logo-phone {
+   display: none;
+}
+
 .vasgroup {
 
     display: block;
@@ -1093,92 +1097,234 @@ p.name-created {
     .system-text {
         font-size: 12px;
     }
+
     .font-10 {
         font-size: 8px;
     }
+
     .font-12  {
         font-size: 10px;
     }
+
     .row-statistic {
         padding: 45px 54px 45px 40px;
     }
+
     p.text-statistic {
         font-size: 12px;
     }
+
     span.counter {
         font-size: 30px;
     }
+
     img.icon-statistic {
         height: 50%;
     }
+
     .highlight-project {
         margin-left: 180px;
         margin-right: 180px;
     }
+
     .highlight-project-p1 {
         font-size: 20px;
     }
     .highlight-project-p2 {
         font-size: 18px;
     }
+
     li.nav-item {
         font-size: 14px;
     }
+
     img.img-project-1 {
         height: 550px;
     }
+
     img.picture-project-1 {
         height: 245px;
     }
+
     .prize-heading {
         width: 40%;
     }
+
     p.prize-h2 {
         font-size: 16px;
     }
+
     strong.prize-h1 {
         font-size: 20px;
     }
+
     .container-news {
         flex-direction: column;
     }
+
     .blog {
         width: 100%;
         padding-bottom: 30px;
     }
+
     .footer {
         padding: 60px 30px 60px 30px;
     }
+
     .box-footer {
         display: flex;
         flex-direction: column;
         padding-right: 40px;
     }
+
     .heading-box-footer {
         font-size: 10px;
     }
+
     i.ti-location-pin {
         font-size: 12px;
     }
+
     p.text-place-box {
         font-size: 8px;
     }
+
     i.ti-headphone-alt {
         font-size: 12px;
     }
+
     p.phone-number {
         font-size: 8px;
     }
+
     .email-box-footer {
         padding-left: 5px;
     }
+
     i.ti-basketball {
         font-size: 12px;
     }
+
     p.heading-created {
         padding-left: 20%;
     }
+
     p.name-created {
         padding-left: 55%;
     }
+}
+
+@media (max-width : 766px) {
+    .logo {
+        display: none;
+    }
+
+    .form-li-row {
+        display: none;
+    }
+
+    .logo-phone {
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+
+    .list-item {
+        display: flex;
+        width: 100%;
+    }
+
+    .list-1 , .list-2 , .list-3 , .list-4 {
+        display: flex;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 8px;
+    }
+
+    .top-item {
+        font-size: 10px;
+    }
+
+    .search-icon ,.ti-headphone , .ti-email , .ti-user{
+        font-size: 12px;
+    }
+
+    .item-1, .item-2, .item-3, .item-4 {
+        padding: 0;
+    }
+    
+    .item-3 {
+        height: 50%;
+    }
+
+    .form {
+        display: flex;
+        height: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .size-logo {
+        height: 70%;
+    }
+
+    .form li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .ti-list {
+        font-size: 40px;
+    }
+
+    #information {
+        margin-top: 100px;
+    }
+
+    .information-select {
+        margin-top: -50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .information-section {
+        width: 110px;
+    }
+
+    .section-1 {
+        height: 75%;
+    }
+
+    .section-2 {
+        height: 15%;
+    }
+
+    .section-text {
+        padding: 10px
+    }
+
+    .section-text-1 {
+        font-size: 13px;
+    }
+
+    .section-text-2 {
+        display: none;
+    }
+
+    .information-text {
+        height: 100%;
+    }
+
+    .information-text-display {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
 }
